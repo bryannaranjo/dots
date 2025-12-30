@@ -143,7 +143,7 @@ eval "$(zoxide init zsh)"
 eval $(thefuck --alias)
 #alias cat='bat'
 alias cd='z' 
-alias ls="eza --color=always --long"
+alias ls="eza --color=always --icons=always --long"
 alias tree='eza --tree -L2'
 
 #fastfetch
