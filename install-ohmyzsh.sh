@@ -36,4 +36,5 @@ sed -i 's/^[[:space:]]*ZSH_THEME=.*/ZSH_THEME="steeef"/' ~/.zshrc
 
 # ZSH_THEME_RANDOM_CANDIDATES=( "johnathan" "steeef" "linuxonly"  )
 essembeh tjkirch duellj kiwi mikeh fino fox funky muse gnzh
-sed -i 's/^[[:space:]]*ZSH_THEME_RANDOM_CANDIDATES=.*/ZSH_THEME_RANDOM_CANDIDATES=( "johnathan" "steeef" "agnoster" "essembeh" "tjkirch" "duellj" "kiwi" "mikeh" "fino" "fox" "funky" "muse" "gnzh")/' ~/.zshrc
+
+sed -i 's/^[[:space:]]*ZSH_THEME_RANDOM_CANDIDATES=.*/ZSH_THEME_RANDOM_CANDIDATES=( "jonathan" "steeef" "agnoster" "essembeh" "tjkirch" "duellj" "kiwi" "mikeh" "fino" "fox" "funky" "muse" "gnzh")/' ~/.zshrc
