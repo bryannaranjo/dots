@@ -28,7 +28,7 @@ rm -rf yazi-x86_64-unknown-linux-gnu*
 
 
 #NerdFonts
-sudo apt install fonts-firacode
+sudo apt install fonts-firacode -y
 fc-list | grep "Nerd"
 
 # make sure chmod 755 on dirs 644 on files
@@ -256,3 +256,4 @@ sort_reverse  = false
 sort_translit  = false
 
 EOF
+
