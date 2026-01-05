@@ -38,15 +38,15 @@ touch ~/.config/yazi/keymap.toml
 touch ~/.config/yazi/theme.toml
 
 #If installing tmux or byobu
-sudo apt install byobu
-mkdir ~/.byobu
-touch ~/.byobu/.tmux.conf
-cat << 'EOF' >> ~/.byobu/.tmux.conf
+sudo apt install tmux -y
+mkdir -p ~/.config/tmux
+touch ~/.config/tmux/tmux.conf
+cat << 'EOF' >> ~/.config/tmux/tmux.conf
 set -g allow-passthrough on
 set -ga update-environment TERM
 set -g visual-activity off
 EOF
-byobu kill-server
+tmux kill-server
 
 #config zshrc-bash/zsh profile
 cat << 'EOF' >> ~/.zshrc
@@ -256,4 +256,5 @@ sort_reverse  = false
 sort_translit  = false
 
 EOF
+
 
