@@ -1,9 +1,5 @@
 # Install
 
-sudo apt update
-sudo apt install -y stow
-
-
-
-
-
+sudo apt update && sudo apt -y install stow
+cd dots
+stow tmux zsh
