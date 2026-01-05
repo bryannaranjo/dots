@@ -1,5 +1,3 @@
-#!/bin/bash
-
 sudo apt update
 sudo apt install zsh -y
 
@@ -39,6 +37,7 @@ sed -i 's/^[[:space:]]*ZSH_THEME=.*/ZSH_THEME="steeef"/' ~/.zshrc
 # ZSH_THEME_RANDOM_CANDIDATES=( "jonathan" "steeef" "linuxonly" "essembeh" "tjkirch" "duellj" "kiwi" "mikeh" "fino" "fox" "funky" "muse" "gnzh" )
 
 sed -i 's/^[[:space:]]*ZSH_THEME_RANDOM_CANDIDATES=.*/ZSH_THEME_RANDOM_CANDIDATES=( "jonathan" "steeef" "agnoster" "essembeh" "tjkirch" "duellj" "kiwi" "mikeh" "fino" "fox" "funky" "muse" "gnzh")/' ~/.zshrc
+
 
 
 
