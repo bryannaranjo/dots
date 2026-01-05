@@ -16,7 +16,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 #make default
 chsh -s $(which zsh)
 
-
+# config
 batcat << 'EOF' >> ~/.zshrc
 
 source <(fzf --zsh)
@@ -36,6 +36,7 @@ sed -i 's/^[[:space:]]*ZSH_THEME=.*/ZSH_THEME="steeef"/' ~/.zshrc
 # ZSH_THEME_RANDOM_CANDIDATES=( "jonathan" "steeef" "linuxonly" "essembeh" "tjkirch" "duellj" "kiwi" "mikeh" "fino" "fox" "funky" "muse" "gnzh" )
 
 sed -i 's/^[[:space:]]*ZSH_THEME_RANDOM_CANDIDATES=.*/ZSH_THEME_RANDOM_CANDIDATES=( "jonathan" "steeef" "agnoster" "essembeh" "tjkirch" "duellj" "kiwi" "mikeh" "fino" "fox" "funky" "muse" "gnzh")/' ~/.zshrc
+
 
 
 
