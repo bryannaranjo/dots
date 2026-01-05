@@ -18,7 +18,8 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 # 2. Download Syntax Highlighting
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
-sudo apt install -y zoxide eza bat fzf ripgrep thefuck tldr
+sudo apt install -y zoxide eza bat fzf ripgrep thefuck 
+#tldr
 
 cat << 'EOF' >> ~/.zshrc
 source <(fzf --zsh)
@@ -38,6 +39,7 @@ sed -i 's/^[[:space:]]*ZSH_THEME=.*/ZSH_THEME="steeef"/' ~/.zshrc
 # ZSH_THEME_RANDOM_CANDIDATES=( "jonathan" "steeef" "linuxonly" "essembeh" "tjkirch" "duellj" "kiwi" "mikeh" "fino" "fox" "funky" "muse" "gnzh" )
 
 sed -i 's/^[[:space:]]*ZSH_THEME_RANDOM_CANDIDATES=.*/ZSH_THEME_RANDOM_CANDIDATES=( "jonathan" "steeef" "agnoster" "essembeh" "tjkirch" "duellj" "kiwi" "mikeh" "fino" "fox" "funky" "muse" "gnzh")/' ~/.zshrc
+
 
 
 
