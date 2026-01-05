@@ -49,7 +49,7 @@ EOF
 tmux kill-server
 
 #config zshrc-bash/zsh profile
-cat << 'EOF' >> ~/.zshrc
+batcat << 'EOF' >> ~/.zshrc
 
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
@@ -74,16 +74,16 @@ ya pkg add dangooddd/kanagawa
 ya pkg add kalidyasin/yazi-flavors:tokyonight-night
 ya pkg add BennyOe/tokyo-night
 ya pkg add 956MB/vscode-dark-modern
-ya pkg add tkapias/fightfly
+ya pkg add tkapias/nightfly
 
 #config theme
-cat << 'EOF' > ~/.config/yazi/theme.toml
+batcat << 'EOF' > ~/.config/yazi/theme.toml
 [flavor]
 dark = "catppuccin-frappe"
 EOF
 
 #config yazi
-cat << 'EOF' > ~/.config/yazi/yazi.toml
+batcat << 'EOF' > ~/.config/yazi/yazi.toml
 # A TOML linter such as https://taplo.tamasfe.dev/ can use this schema to validate your config.
 # If you encounter any issues, please make an issue at https://github.com/yazi-rs/schemas.
 "$schema" = "https://yazi-rs.github.io/schemas/yazi.json"
@@ -256,5 +256,6 @@ sort_reverse  = false
 sort_translit  = false
 
 EOF
+
 
 
