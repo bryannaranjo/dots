@@ -56,13 +56,3 @@ rm -rf yazi-x86_64-unknown-linux-gnu*
 #NerdFonts
 sudo apt -y install fonts-firacode
 fc-list | grep "Nerd"
-
-#install ya packages
-ya pkg add 956MB/vscode-dark-modern
-ya pkg add yazi-rs/flavors:catppuccin-frappe
-ya pkg add AdithyanA2005/nord
-ya pkg add dangooddd/kanagawa
-ya pkg add kalidyasin/yazi-flavors:tokyonight-night
-ya pkg add BennyOe/tokyo-night
-ya pkg add 956MB/vscode-dark-modern
-ya pkg add tkapias/nightfly
