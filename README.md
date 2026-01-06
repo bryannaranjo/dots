@@ -4,6 +4,7 @@ sudo apt update && sudo apt -y install stow
 git clone https://github.com/bryannaranjo/dots.git
 cd dots
 stow tmux zsh yazi
+cd ~
 
 # Install zsh
 sudo apt install zsh -y
