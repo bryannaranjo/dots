@@ -7,7 +7,7 @@ stow tmux zsh yazi
 cd ~
 
 # Install zsh
-sudo apt install zsh -y
+sudo apt install -y zsh 
 sudo apt install -y zoxide eza bat fzf ripgrep thefuck 
 #tldr
 
@@ -34,11 +34,11 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 
 # Debian install yazi
-sudo apt install ffmpeg 7zip jq poppler-utils fd-find ripgrep fzf zoxide imagemagick xclip wl-clipboard xsel
+sudo apt install -y ffmpeg 7zip jq poppler-utils fd-find ripgrep fzf zoxide imagemagick xclip wl-clipboard xsel
 #sudo snap install yazi --classic
 
 #!/bin/bash
-sudo apt install wget unzip -y
+sudo apt install -y wget unzip
 # 1. Download the specific file
 wget https://github.com/sxyazi/yazi/releases/download/v25.5.31/yazi-x86_64-unknown-linux-gnu.zip
 
@@ -54,7 +54,7 @@ rm -rf yazi-x86_64-unknown-linux-gnu*
 
 
 #NerdFonts
-sudo apt install fonts-firacode
+sudo apt -y install fonts-firacode
 fc-list | grep "Nerd"
 
 #install ya packages
