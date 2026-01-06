@@ -121,7 +121,7 @@ function y() {
 }
 
 export EDITOR=nano
-alias ya='/snap/yazi/current/ya'
+alias ya='/usr/bin/ya'
 
 # In ~/.zshrc
 source <(fzf --zsh)
