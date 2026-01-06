@@ -1,6 +1,7 @@
 # Install
 
 sudo apt update && sudo apt -y install stow
+git clone https://github.com/bryannaranjo/dots.git
 cd dots
 stow tmux zsh yazi
 
@@ -12,7 +13,7 @@ sudo apt install -y zoxide eza bat fzf ripgrep thefuck
 #install ohmyzsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 #make default
-chsh -s $(which zsh)
+# chsh -s $(which zsh)
 
 #######################################
 # RUN BELOW SEPARATE
@@ -55,12 +56,6 @@ rm -rf yazi-x86_64-unknown-linux-gnu*
 sudo apt install fonts-firacode
 fc-list | grep "Nerd"
 
-# make sure chmod 755 on dirs 644 on files
-mkdir -p ~/.config/yazi/flavors
-touch ~/.config/yazi/yazi.toml
-touch ~/.config/yazi/keymap.toml
-touch ~/.config/yazi/theme.toml
-
 #install ya packages
 ya pkg add 956MB/vscode-dark-modern
 ya pkg add yazi-rs/flavors:catppuccin-frappe
@@ -69,4 +64,4 @@ ya pkg add dangooddd/kanagawa
 ya pkg add kalidyasin/yazi-flavors:tokyonight-night
 ya pkg add BennyOe/tokyo-night
 ya pkg add 956MB/vscode-dark-modern
-ya pkg add tkapias/fightfly
+ya pkg add tkapias/nightfly
