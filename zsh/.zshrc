@@ -126,22 +126,10 @@ alias ya='/snap/yazi/current/ya'
 # In ~/.zshrc
 source <(fzf --zsh)
 
-
-
-function y() {
-	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
-	yazi "$@" --cwd-file="$tmp"
-	IFS= read -r -d '' cwd < "$tmp"
-	[ -n "$cwd" ] && [ "$cwd" != "$PWD" ] && builtin cd -- "$cwd"
-	rm -f -- "$tmp"
-}
-
-alias ya='/snap/yazi/current/ya'
-export EDITOR="nano"
-
 eval "$(zoxide init zsh)"
 eval $(thefuck --alias)
-#alias cat='bat'
+
+alias cat='batcat'
 alias cd='z' 
 alias ls="eza --color=always --icons=always --long"
 alias tree='eza --tree -L2'
