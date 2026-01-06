@@ -1,6 +1,11 @@
 # Install
 
-sudo apt update && sudo apt -y install stow
+sudo apt update && sudo apt -y install stow 
+
+#Needed for cpu-mem plugin
+apt install python3.10-venv
+
+# dl dots
 git clone https://github.com/bryannaranjo/dots.git
 cd dots
 stow tmux zsh yazi
