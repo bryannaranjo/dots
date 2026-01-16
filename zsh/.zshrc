@@ -18,7 +18,7 @@ ZSH_THEME="random"
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
 # If set to an empty array, this variable will have no effect.
-ZSH_THEME_RANDOM_CANDIDATES=( "jonathan" "steeef" "agnoster" "essembeh" "tjkirch" "duellj" "kiwi" "mikeh" "fino" "fox" "funky" "muse" "gnzh")
+ZSH_THEME_RANDOM_CANDIDATES=( "jonathan" "steeef" "agnoster" "essembeh" "tjkirch" "duellj" "mikeh" "fino" "fox" "funky" "muse" "gnzh")
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -74,7 +74,7 @@ ZSH_THEME_RANDOM_CANDIDATES=( "jonathan" "steeef" "agnoster" "essembeh" "tjkirch
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting )
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-completions)
 
 source $ZSH/oh-my-zsh.sh
 
