@@ -3,7 +3,7 @@
 sudo apt update && sudo apt -y install stow 
 
 #Needed for cpu-mem plugin
-apt install python3-venv
+sudo apt install python3-venv
 
 # dl dots
 git clone https://github.com/bryannaranjo/dots.git
